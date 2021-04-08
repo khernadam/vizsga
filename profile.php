@@ -95,10 +95,10 @@
             <div class="profimg-up">
                 <form action="upload.php" method="POST" enctype="multipart/form-data">
                     <input type="file" name="file">
-                    <button type="submit" name="submit" style="padding-left: 70px; padding-right: 70px;">UPLOAD</button>
+                    <button type="submit" name="submit" class="prof-up-buttons">UPLOAD</button>
                 </form>
                 <form action="delete.php" method="POST">
-                    <button type="submit" name="submit" style="padding-left: 70px; padding-right: 70px;">DELETE</button>
+                    <button type="submit" name="submit" class="prof-up-buttons">DELETE</button>
                 </form>
             </div>
             <hr class="separator2">
@@ -140,6 +140,9 @@
                                     </a>';
                                 }
                             }
+                        }
+                        else{
+                            echo "<h1 class='no-prod'>You have not uploaded any products yet!</h1>";
                         }
                     }
                     ?>
