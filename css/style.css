@@ -864,6 +864,11 @@ div#slider figure {
         font-size: 35px;
         text-align: center;
     }
+
+    .con iframe{
+        width: 100%;
+        height: 100%;
+    }
 }
 
 
@@ -912,6 +917,25 @@ div#slider figure {
     width: 200px;
 }
 
+.prof-up-buttons{
+    width: 200px;
+    margin-top: 15px;
+    background: black;
+    color: white;
+    border: 2px solid black;
+    font-size: 16px;
+    font-weight: 600;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 300ms ease-in-out;
+}
+
+.prof-up-buttons:hover{
+    background-color: white;
+    color: black;
+}
+
 .separator2{
     background-color: black;
     border: 1px solid black;
@@ -927,6 +951,7 @@ div#slider figure {
 
 .os-container{
     width: 100%;
+    min-height: 250px;
     height: auto;
     padding: 20px;
     background-color: white;
@@ -962,6 +987,11 @@ div#slider figure {
     border: 1px solid black;
 }
 
+.no-prod{
+    margin: auto;
+    text-align: center;
+}
+
 #upload-title{
     margin-bottom: -60px;
     margin-top: 60px;
@@ -984,6 +1014,8 @@ div#slider figure {
     }
     
     .profimg-up{
+        margin-left: 15%;
+        margin-right: 15%;
         width: 150px;
     }
     
