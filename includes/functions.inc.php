@@ -11,7 +11,6 @@ function emptyInputSignup($name, $email, $pwd, $pwdRep){
 }
 
 function invalidName($name){
-    //var_dump($_POST);
     $result = false;
     if (!preg_match("/^[a-zA-Z0-9\s]*$/", $name)) {
         $result = true;
