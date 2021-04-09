@@ -24,7 +24,7 @@
         <body>
         <header>
             <nav>
-                <div class="name"><img src="Logo.png" alt="Logo"></div>
+                <div class="name"><a href="home.php"><img src="Logo.png" alt="Logo"></a></div>
                 <form action="search.php" method="POST">
                     <input type="search" name="search" class="search" id="#" placeholder="Search" onfocus="this.placeholder='I can search here'" onblur="this.placeholder='Search'">
                     <button type="submit" name="submit-search" class="search-button"></button>
