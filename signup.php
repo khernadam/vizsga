@@ -6,25 +6,25 @@
             <div class="signup-form">
                 <h1>Sign Up</h1>
                 <form action="includes/signup.inc.php" method="post">
-                    <p>Name</p>
-                    <input type="text" name="name" placeholder="Name" autofocus><br>
+                    <p>Name (maximum 16 characters)</p>
+                    <input type="text" name="name" placeholder="Name" autofocus max=16><br>
                     <p>E-mail</p>
                     <input type="text" name="email" placeholder="E-mail"><br>
-                    <p>Birthday</p>
+                    <p>Birthday (optianal)</p>
                     <input type="date" name="birthday"><br>
-                    <p>Gender</p>
+                    <p>Gender (optianal)</p>
                     <input type="radio" name="gender" value="male">
                     <label for="male">Male</label>
                     <input type="radio" name="gender" value="female">
                     <label for="female">Female</label>
                     <input type="radio" name="gender" value="other">
                     <label for="other">Other</label>
-                    <p>Tel. number</p>
+                    <p>Tel. number (optianal, but recommended)</p>
                     <input type="tel" name="tel" placeholder="Tel. number"><br>
-                    <p>Password</p>
-                    <input type="password" name="pwd" placeholder="Password"><br>
+                    <p>Password (minimum 8 characters, maximum 16 characters)</p>
+                    <input type="password" name="pwd" placeholder="Password" min=8 max=16><br>
                     <p>Repeat password</p>
-                    <input type="password" name="pwd-rep" placeholder="Repeat password"><br>
+                    <input type="password" name="pwd-rep" placeholder="Repeat password" min=8 max=16><br>
                     <button type="submit" name="submit">Sign Up</button>
                 </form>
             </div>
